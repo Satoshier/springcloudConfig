@@ -1,0 +1,16 @@
+spring
+ profils:
+  active:
+   - dev
+   
+spring:
+ profils: dev #开发环境
+ application:
+  name: microservicecloud-dev
+  
+spring:
+ profils: test  #测试环境
+ application:
+  name: microservicecloud-test
+  
+  #保存为TF-8格式
